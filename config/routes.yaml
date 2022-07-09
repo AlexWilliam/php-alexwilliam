@@ -11,3 +11,13 @@ usuarios:
   path: /usuarios
   methods: GET
   controller: App\Controller\UsuariosController::getUsuarios
+
+cadastrarUsuarios:
+  path: /usuarios
+  methods: POST
+  controller: App\Controller\UsuariosController::insertUsuarios
+
+atualizarUsuarios:
+  path: /usuarios
+  methods: PUT
+  controller: App\Controller\UsuariosController::updateUsuarios
